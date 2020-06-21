@@ -1,0 +1,40 @@
+{
+  "Landing": {
+      "1": "Get The Best Diet Plan",
+      "2": "Bringing Health" ,
+      "3": "to life for the whole family",
+      "4": "Get Started",
+      "5": " Serving Good Health",
+      "6":  "Taking small steps to eavsert healthy, you'll be on your way to getting the nutrients.",
+      "7": "Your body needs to stay healthy, active, and strong. It's easier than you think!",
+      "8": "Discover More",
+      "9":  "Serving Good lifestyle",
+      "10": "Being healthy should be part of your overall lifestyle. Living a healthy",
+      "11": "lifestyle can help prevent chronic diseases and long-term illnesses",
+      "12": "Discover More"
+  },
+  "Survey":
+  {
+    "1":"Some quick questions to generate that awesome meal plan ..",
+    "2":"How many meals do you ( or want to have ) in a day?",
+    "3":"Choose a plan type",
+    "4":"Any health preferences?",
+    "5":"Are you experiencing following symptoms?",
+    "6":"Have you had any of these?",
+    "7":"Calorie intake",
+    "8":"Are you a Health worker?",
+    "9":"Back",
+    "10":"Next",
+    "11":"Chopping those onions",
+    "12":"Go with recommended",
+    "13":"Choose custom values",
+    "14": " Get Plan",
+    "15": "Yes",
+    "16": "No"
+  },
+  "Footer":
+  {
+    "1": "Created with",
+    "2": "by SMVDU Catalysts"
+  }
+}

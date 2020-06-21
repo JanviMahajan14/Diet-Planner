@@ -1,0 +1,15 @@
+@import '../../../partials/manifest.scss';
+.Footer{
+  font-size: 1.3rem;
+  text-align: center;
+  padding-bottom: 2rem;
+  background-color: #003269;
+  font-family: 'Amiri', serif;
+  color:white;
+}
+.Footer__icon{
+  color: $hotpink;
+}
+.Footer__link{
+  color:$hotpink;
+}

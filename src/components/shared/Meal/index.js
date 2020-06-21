@@ -5,6 +5,7 @@ import './Meal.scss';
 
 const Meal = (props) => (
   <a className="Meal" href={props.url} target="_blank" rel="noopener noreferrer">
+
     <div className="Meal__head">{props.type}</div>
     <div className="Meal__content">
       <div className="Meal__content__img">

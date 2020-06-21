@@ -1,26 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import { Route } from 'react-router-dom';
+import 'font-awesome/css/font-awesome.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import './global.scss';
+
+import Landing from './components/page/Landing';
+import Survey from './components/page/Survey';
+import Plan from './components/page/Plan';
+
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <Route exact path="/" component={Landing} />
+        <Route path="/survey" component={Survey} />
+        <Route path="/meal-plan" component={Plan} />
+      </div>
+    );
+  }
 }
 
 export default App;

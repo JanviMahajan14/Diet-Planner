@@ -43,7 +43,6 @@ npm start
 * [**Janvi Mahajan**](https://github.com/JanviMahajan14)
 * [**Aryaman Puri**](https://github.com/aryamanpuri) 
 * [**Aashim Garg**](https://github.com/aashimgarg)
-* [**Aman Kumar**](https://github.com/Amankumar29)
 * [**Arteev Raina**](https://github.com/arteevraina)
 
 

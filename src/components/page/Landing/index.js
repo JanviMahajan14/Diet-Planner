@@ -18,7 +18,7 @@ const Landing = (props) => {
             <h1 classNate="Landing__banner__heading">{t('Landing.2')}</h1>
             <p>{t('Landing.3')}</p>
             <Link to="/survey">
-              <Button variant="info" link={true} >{t('Landing.4')}!</Button>
+              <Button variant="info" link={true} target="_blank">{t('Landing.4')}!</Button>
             </Link>
           </div>
         </div>
@@ -35,12 +35,12 @@ const Landing = (props) => {
             {t('Landing.6')}.<br />
             {t('Landing.7')}!
           </p>
-          <Button href="https://www.who.int/health-topics/coronavirus" variant="info">{t('Landing.8')}</Button>
+          <Button href="https://www.who.int/health-topics/coronavirus" variant="info" target="_blank">{t('Landing.8')}</Button>
         </div>
         <div>
           <h2>{t('Landing.9')}</h2>
           <p>{t('Landing.10')} <br />{t('Landing.11')}</p>
-          <Button href="https://www.who.int/health-topics/coronavirus" variant="info">{t('Landing.12')}</Button>
+          <Button href="https://www.who.int/health-topics/coronavirus" variant="info" target="_blank">{t('Landing.12')}</Button>
         </div>
         <div class="c"></div>
       </div>
